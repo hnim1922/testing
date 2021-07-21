@@ -12,7 +12,7 @@ public abstract class Pet implements Comparable<Pet>{
     protected int yob;
     protected double weight;
    
-    public Pet(String id, String name, int yob, double weight) {
+    public Pet(String id, int name, int yob, double weight) {
         this.id = id;
         this.name = name;
         this.yob = yob;
