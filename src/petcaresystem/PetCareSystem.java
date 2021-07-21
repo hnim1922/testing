@@ -13,6 +13,7 @@ import ui.Menu;
 public class PetCareSystem {
 
     public static void main(String[] args) {
+        int p;
         Menu menu = new Menu("Happiness Pet Care System");
         menu.addNewOption("1. Add a new dog profile");
         menu.addNewOption("2. Add a new cat profile");
